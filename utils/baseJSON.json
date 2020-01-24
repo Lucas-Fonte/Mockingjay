@@ -1,0 +1,228 @@
+{
+  "export": {
+    "venture": "MOB",
+    "owner": "bob",
+    "qty": 1,
+    "current_export_timestamp": 1579890170,
+    "order": {
+      "type": "VENDA",
+      "order_id": "7633",
+      "qty_items": 1,
+      "qty_sku": 1,
+      "store": "mob",
+      "order_number": "400026822",
+      "store_order_id": null,
+      "created_at": "2020-01-03 13:45:24",
+      "aggregated_shipment": "0",
+      "exportable_at": "2020-01-03 13:45:23",
+      "fk_store": "1",
+      "exchange_crm_ticket": null,
+      "franchise_invoice": null,
+      "customer": {
+        "customer_id": "580",
+        "name": "Pedro Silva",
+        "email": "pedro@gmail.com",
+        "cpf": "162.264.310-08",
+        "type": "F",
+        "razao_social": null,
+        "nome_fantasia": null,
+        "cnpj": null,
+        "inscricao_estadual": null,
+        "consumo_proprio": ""
+      },
+      "shipping_address": {
+        "recipient_name": "Pedro Silva",
+        "street": "Rua Major Paladino",
+        "number": "21",
+        "complement": null,
+        "reference_point": null,
+        "neighborhood": "Vila Ribeiro de Barros",
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "postcode": "05307-000",
+        "home_phone": "(11) 1111-11111",
+        "cell_phone": null,
+        "city_code": "3550308"
+      },
+      "billing_address": {
+        "recipient_name": "Pedro Silva",
+        "street": "Rua Major Paladino",
+        "number": "21",
+        "complement": null,
+        "reference_point": null,
+        "neighborhood": "Vila Ribeiro de Barros",
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "postcode": "05307-000",
+        "home_phone": "(11) 1111-11111",
+        "cell_phone": null,
+        "city_code": "3550308"
+      },
+      "items": [
+        {
+          "type": "VENDA",
+          "item_number": 1,
+          "item_id": "10999",
+          "product_name": "Copo Atol Tubo 300 ml",
+          "bundle_sku": null,
+          "bundle_identifier": null,
+          "bundle_name": null,
+          "sku_simple": "NA160AC80JQT-7150",
+          "fk_sales_order_exchanged_for": null,
+          "ncm": "0",
+          "st": {
+            "xsi:nil": "true"
+          },
+          "ipi": "0",
+          "icms": "0",
+          "commercial_unit": "UN",
+          "unit_price": "8.99",
+          "paid_price": "8.99",
+          "taxable_price": "0.00",
+          "original_unit_price": "8.99",
+          "outbound_ipi": null,
+          "coupon_money_value": "0.00",
+          "coupon_exchange_value": null,
+          "coupon_exchange_value_services": null,
+          "coupon_exchange_value_shipping": null,
+          "nopayment_money_value": null,
+          "blue_circle_money_value": null,
+          "cart_rule_discount": "0.00",
+          "uf_discount_value": "0.00",
+          "quick_delivery_fee": "10.00",
+          "quick_delivery_fee_amount": "0.90",
+          "delivery_choice": "quick",
+          "quick_delivery_additional_fee": "12.62",
+          "shipping_amount": "37.85",
+          "shipping_taxable": 21.16,
+          "installation_price": "0.00",
+          "difficulty_assembly": "1",
+          "category_otb": "Copos",
+          "cost_price": "3.55",
+          "supplier_contribution_margin": null,
+          "assembly_fitter_name": null,
+          "is_complimentary": "0",
+          "cnpj_catalog_supplier": "08.371.978/0001-71",
+          "batch_identification": null,
+          "shipping_after_billing": {
+            "shipping_after_billing_last_mile_time": "",
+            "shipping_after_billing_transfer_time": "",
+            "shipping_after_billing_transfer_date": "",
+            "shipping_after_billing_warehouse_time": "",
+            "shipping_after_billing_warehouse_date": ""
+          },
+          "partner": {
+            "partner_api_commission": "",
+            "partner_contract_commission": "",
+            "fk_contract_category_otb": "",
+            "contract_category_otb": "",
+            "store_order_partner": ""
+          },
+          "branch": {
+            "branch_warehouse_stock": null
+          },
+          "shipment": {
+            "total_delivery_time": "12",
+            "minimum_delivery_time": "21",
+            "maximum_delivery_time": "28",
+            "supplier_delivery_time": "0",
+            "fob_transport_time": {
+              "xsi:nil": "true"
+            },
+            "warehouse_processing_date": "2020-01-16",
+            "warehouse_processing_time": "9",
+            "carrier_delivery_time": "3",
+            "shipment_extra_entry": "0",
+            "shipment_special_delivery_time": null,
+            "shipment_type": "1",
+            "inbound_shipment_type": "1",
+            "express_picking": "0",
+            "shipment_prorated_percentage": "99.999",
+            "shipment_prorated_cost": "21.160",
+            "shipment_prorated_weight": "270.000",
+            "shipment_package_number": "1",
+            "installation_cost": null,
+            "planned_delivery_date": "2020-01-21",
+            "planned_supplier_delivery_date": "2020-01-16",
+            "planned_fob_supplier_delivery_date": null,
+            "extra_time_payment_days": "0",
+            "carrier": {
+              "id": "109",
+              "name": "''DOMINALOG''",
+              "razao_social": "''DOMINALOG EXPRESS LOGISTICA INTEGRADA LTDA''",
+              "cnpj": "''182471000000",
+              "ie": "''2063150000",
+              "address": "''ALAMEDA RIO NEGRO, 1084 û CONJ 43''",
+              "city": "''BARUERI''",
+              "state": "''"
+            },
+            "transfer": {
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_extra_time": null,
+              "transfer_shipment_warehouse_processing_date": null,
+              "transfer_shipment_warehouse_additional_holiday_time": null,
+              "transfer_cost": null,
+              "transfer_carrier_code": null
+            },
+            "dimensions": {
+              "width": "6",
+              "height": "16",
+              "length": "6",
+              "weight": "0.27",
+              "package_pieces": "1"
+            },
+            "product_warranty": "3 Meses",
+            "product_warranty_extended_warranty": ""
+          },
+          "supplier_name": "Paulo R. Caputti Utilidades Domésticas Epp",
+          "status": [
+            {
+              "code": "payment_pending",
+              "step": "STEP_BOB",
+              "date": "2020-01-03 13:45:23"
+            },
+            {
+              "code": "clarify_boleto_capture",
+              "step": "STEP_BOB",
+              "date": "2020-01-03 14:06:29"
+            },
+            {
+              "code": "exportable",
+              "step": "STEP_BOB",
+              "date": "2020-01-03 14:06:48"
+            }
+          ]
+        }
+      ],
+      "total": {
+        "unit_price": 8.99,
+        "paid_price": 8.99,
+        "taxable_price": 0,
+        "original_unit_price": 8.99,
+        "cart_rule_discount": 0,
+        "coupon_money_value": 0,
+        "coupon_exchange_value": 0,
+        "coupon_exchange_value_shipping": 0,
+        "coupon_exchange_value_services": 0,
+        "nopayment_money_value": 0,
+        "blue_circle_coupon_value": null,
+        "shipping_amount": 37.85
+      },
+      "payments": [
+        {
+          "id_sales_order_payment": "2888",
+          "method": "BoletoPayment",
+          "conciliationkey": null,
+          "created_at": "2020-01-03 13:45:25",
+          "updated_at": "2020-01-03 13:45:25",
+          "payment_date": null,
+          "amount": "46.84",
+          "installments": null,
+          "days": "5"
+        }
+      ]
+    }
+  }
+}

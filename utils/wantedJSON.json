@@ -1,0 +1,1897 @@
+{
+  "export": {
+    "venture": "MOB",
+    "order": {
+      "owner": "WMS",
+      "order_id": "4263161",
+      "ref": null,
+      "order_number": "707735243",
+      "qty_items": "0",
+      "qty_sku": "0",
+      "created_at": "2018-09-19 10:21:30",
+      "exportable_at": "2018-09-19 02:06:33",
+      "total": {
+        "unit_price": "0",
+        "paid_price": "0",
+        "original_unit_price": "0",
+        "coupon_money_value": "0"
+      },
+      "customer": {
+        "name": "TKASA COMERCIO VAREJISTA LTDA  ME",
+        "email": "logistica@tkasa.com.br",
+        "cpf": "",
+        "cnpj": "26714901000309",
+        "inscricao_estadual": "119639684113"
+      },
+      "shipping_address": {
+        "recipient_name": "Cristiane Ou Monica",
+        "street": "Rua Alto Belo",
+        "number": "877",
+        "complement": "",
+        "reference_point": "",
+        "neighborhood": "Vila Antonieta",
+        "city": "Sao Paulo",
+        "state": "SP",
+        "postcode": "03478040",
+        "home_phone": "(11) 2538-1981",
+        "cell_phone": "",
+        "city_code": ""
+      },
+      "billing_address": {
+        "recipient_name": "Cristiane Ou Monica",
+        "street": "Rua Alto Belo",
+        "number": "877",
+        "complement": "",
+        "neighborhood": "Vila Antonieta",
+        "city": "Sao Paulo",
+        "state": "SP",
+        "postcode": "03478040",
+        "home_phone": "(11) 2538-1981"
+      },
+      "payments": {
+        "payment": [
+          {
+            "method": "LojaMoblyPayment",
+            "installments": "1",
+            "amount": "10065.790000",
+            "payment_date": "2018-09-19 10:15:46",
+            "created_at": "2018-09-19 10:20:48",
+            "updated_at": null
+          }
+        ]
+      },
+      "items": {
+        "item": [
+          {
+            "type": "Sale",
+            "item_id": "8212656",
+            "ref": null,
+            "item_number": "1",
+            "sku_simple": "RU994CL19UEIMOB-396076/2/006",
+            "product_name": "Volume 6",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "13755029000125",
+            "commercial_unit": "UN",
+            "ncm": "94036000",
+            "unit_price": "2139.99",
+            "paid_price": "2139.99",
+            "taxable_price": "0",
+            "original_unit_price": "2139.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Guarda-Roupas",
+            "cost_price": "1758.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-09"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-10-05"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-10"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": null,
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "18",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "14",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-10-10",
+              "planned_supplier_delivery_date": "2018-10-09",
+              "planned_fob_supplier_delivery_date": "2018-10-09",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212657",
+            "ref": null,
+            "item_number": "2",
+            "sku_simple": "LE190TA08MWHMOB-426316/1/003",
+            "product_name": "Volume 3",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "05690271000130",
+            "commercial_unit": "UN",
+            "ncm": "94036000",
+            "unit_price": "547.99",
+            "paid_price": "547.99",
+            "taxable_price": "0",
+            "original_unit_price": "547.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Mesas de Jantar Avulsas",
+            "cost_price": "403.840000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-23"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-10-19"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-24"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": null,
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "27",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "23",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-10-24",
+              "planned_supplier_delivery_date": "2018-10-23",
+              "planned_fob_supplier_delivery_date": "2018-10-23",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212658",
+            "ref": null,
+            "item_number": "3",
+            "sku_simple": "DD124UP88JIDMOB-289678",
+            "product_name": "SofÃ¡ 3 Lugares RetrÃ¡til Kennedy Suede Capuccino",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "07430082000153",
+            "commercial_unit": "UN",
+            "ncm": "94016100",
+            "unit_price": "574.99",
+            "paid_price": "574.99",
+            "taxable_price": "0",
+            "original_unit_price": "574.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás 3 Lugares",
+            "cost_price": "470.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-05"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-10-03"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-08"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": null,
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "16",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "12",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-10-08",
+              "planned_supplier_delivery_date": "2018-10-05",
+              "planned_fob_supplier_delivery_date": "2018-10-05",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212659",
+            "ref": null,
+            "item_number": "4",
+            "sku_simple": "DD124UP88JIDMOB-289678",
+            "product_name": "SofÃ¡ 3 Lugares RetrÃ¡til Kennedy Suede Capuccino",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "07430082000153",
+            "commercial_unit": "UN",
+            "ncm": "94016100",
+            "unit_price": "574.99",
+            "paid_price": "574.99",
+            "taxable_price": "0",
+            "original_unit_price": "574.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás 3 Lugares",
+            "cost_price": "470.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-05"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-10-03"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-08"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": null,
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "16",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "12",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-10-08",
+              "planned_supplier_delivery_date": "2018-10-05",
+              "planned_fob_supplier_delivery_date": "2018-10-05",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212660",
+            "ref": null,
+            "item_number": "5",
+            "sku_simple": "DD124UP88JIDMOB-289678",
+            "product_name": "SofÃ¡ 3 Lugares RetrÃ¡til Kennedy Suede Capuccino",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "07430082000153",
+            "commercial_unit": "UN",
+            "ncm": "94016100",
+            "unit_price": "574.99",
+            "paid_price": "574.99",
+            "taxable_price": "0",
+            "original_unit_price": "574.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás 3 Lugares",
+            "cost_price": "470.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-05"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-10-03"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-08"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": null,
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "16",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "12",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-10-08",
+              "planned_supplier_delivery_date": "2018-10-05",
+              "planned_fob_supplier_delivery_date": "2018-10-05",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212661",
+            "ref": null,
+            "item_number": "6",
+            "sku_simple": "DD124UP88JIDMOB-289678",
+            "product_name": "SofÃ¡ 3 Lugares RetrÃ¡til Kennedy Suede Capuccino",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "07430082000153",
+            "commercial_unit": "UN",
+            "ncm": "94016100",
+            "unit_price": "574.99",
+            "paid_price": "574.99",
+            "taxable_price": "0",
+            "original_unit_price": "574.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás 3 Lugares",
+            "cost_price": "470.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-05"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-10-03"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-08"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": null,
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "16",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "12",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-10-08",
+              "planned_supplier_delivery_date": "2018-10-05",
+              "planned_fob_supplier_delivery_date": "2018-10-05",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212662",
+            "ref": null,
+            "item_number": "7",
+            "sku_simple": "DD124UP88JIDMOB-289678",
+            "product_name": "SofÃ¡ 3 Lugares RetrÃ¡til Kennedy Suede Capuccino",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "07430082000153",
+            "commercial_unit": "UN",
+            "ncm": "94016100",
+            "unit_price": "574.99",
+            "paid_price": "574.99",
+            "taxable_price": "0",
+            "original_unit_price": "574.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás 3 Lugares",
+            "cost_price": "470.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-05"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-10-03"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-10-08"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": null,
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "16",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "12",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-10-08",
+              "planned_supplier_delivery_date": "2018-10-05",
+              "planned_fob_supplier_delivery_date": "2018-10-05",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212645",
+            "ref": null,
+            "item_number": "8",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212646",
+            "ref": null,
+            "item_number": "9",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212647",
+            "ref": null,
+            "item_number": "10",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212648",
+            "ref": null,
+            "item_number": "11",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212649",
+            "ref": null,
+            "item_number": "12",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212650",
+            "ref": null,
+            "item_number": "13",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212651",
+            "ref": null,
+            "item_number": "14",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212652",
+            "ref": null,
+            "item_number": "15",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212653",
+            "ref": null,
+            "item_number": "16",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212654",
+            "ref": null,
+            "item_number": "17",
+            "sku_simple": "MC926CH05EJUMOB-200176",
+            "product_name": "Cadeira de EscritÃ³rio Diretor GiratÃ³ria Marilyn Plus Branca",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "14055516000571",
+            "commercial_unit": "UN",
+            "ncm": "94013090",
+            "unit_price": "200.99",
+            "paid_price": "200.99",
+            "taxable_price": "0",
+            "original_unit_price": "200.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Cadeiras de Escritório",
+            "cost_price": "113.100000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "54",
+              "height": "34",
+              "length": "73",
+              "weight": "5",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212655",
+            "ref": null,
+            "item_number": "18",
+            "sku_simple": "MO173TA12OWHMOB-339780",
+            "product_name": "Escrivaninha Cavalete Savona Branco e Preta",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "07533869000140",
+            "commercial_unit": "UN",
+            "ncm": "94033000",
+            "unit_price": "179.99",
+            "paid_price": "179.99",
+            "taxable_price": "0",
+            "original_unit_price": "179.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Escrivaninhas",
+            "cost_price": "155.400000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "0",
+              "height": "0",
+              "length": "0",
+              "weight": "0",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212663",
+            "ref": null,
+            "item_number": "19",
+            "sku_simple": "LI582UP86DRHMOB-199503",
+            "product_name": "SofÃ¡-Cama 3 Lugares Casal Premium Couro SintÃ©tico Preto",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "53336244000106",
+            "commercial_unit": "UN",
+            "ncm": "94014010",
+            "unit_price": "770.99",
+            "paid_price": "770.99",
+            "taxable_price": "0",
+            "original_unit_price": "770.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás-cama",
+            "cost_price": "630.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "112",
+              "height": "35",
+              "length": "192",
+              "weight": "41",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212664",
+            "ref": null,
+            "item_number": "20",
+            "sku_simple": "LI582UP86DRHMOB-199503",
+            "product_name": "SofÃ¡-Cama 3 Lugares Casal Premium Couro SintÃ©tico Preto",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "53336244000106",
+            "commercial_unit": "UN",
+            "ncm": "94014010",
+            "unit_price": "770.99",
+            "paid_price": "770.99",
+            "taxable_price": "0",
+            "original_unit_price": "770.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás-cama",
+            "cost_price": "630.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "112",
+              "height": "35",
+              "length": "192",
+              "weight": "41",
+              "package_pieces": "1"
+            }
+          },
+          {
+            "type": "Sale",
+            "item_id": "8212665",
+            "ref": null,
+            "item_number": "21",
+            "sku_simple": "LI582UP86DRHMOB-199503",
+            "product_name": "SofÃ¡-Cama 3 Lugares Casal Premium Couro SintÃ©tico Preto",
+            "coupon_money_value": "0",
+            "shipping_amount": "0",
+            "cnpj_catalog_supplier": "53336244000106",
+            "commercial_unit": "UN",
+            "ncm": "94014010",
+            "unit_price": "770.99",
+            "paid_price": "770.99",
+            "taxable_price": "0",
+            "original_unit_price": "770.99",
+            "installation_price": "0.000000",
+            "batch_identification": null,
+            "category_otb": "Sofás-cama",
+            "cost_price": "630.000000",
+            "difficulty_assembly": null,
+            "outbound_ipi": null,
+            "dates": [
+              {
+                "step": "STEP_SUPPLIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-19"
+              },
+              {
+                "step": "STEP_WAREHOUSE",
+                "type": "PLANNED_AT",
+                "date": "2018-09-17"
+              },
+              {
+                "step": "STEP_CARRIER",
+                "type": "PLANNED_AT",
+                "date": "2018-09-20"
+              }
+            ],
+            "branch": {
+              "branch_warehouse_stock": "14055516000490",
+              "branch_billing": "14055516000490",
+              "branch_expedition": "14055516000490"
+            },
+            "shipment": {
+              "total_delivery_time": "4",
+              "minimum_delivery_time": "0",
+              "maximum_delivery_time": "0",
+              "supplier_delivery_time": "0",
+              "fob_transport_time": "0",
+              "warehouse_processing_time": "-2",
+              "carrier_delivery_time": "0",
+              "shipment_type": "Somente Fornecedor (CIF)",
+              "shipment_prorated_cost": "0",
+              "shipment_prorated_weight": "0",
+              "express_picking": "99",
+              "shipment_package_number": "0",
+              "planned_delivery_date": "2018-09-20",
+              "planned_supplier_delivery_date": "2018-09-19",
+              "planned_fob_supplier_delivery_date": "2018-09-19",
+              "installation_cost": null,
+              "carrier": {
+                "id": "999",
+                "name": "RETIRA",
+                "razao_social": "RETIRA",
+                "cnpj": "99999999999999",
+                "ie": "999999999999",
+                "address": "AV. PROJETADA GLEBA A-1C - GALPAO 15 E 16 - FAZENDA GRANDE",
+                "city": "JUNDIAI",
+                "state": "SP"
+              }
+            },
+            "transfer": {
+              "transfer_carrier_code": null,
+              "transfer_time": null,
+              "transfer_date": null,
+              "transfer_shipment_warehouse_processing_time": null,
+              "transfer_shipment_warehouse_processing_date": null
+            },
+            "dimensions": {
+              "width": "112",
+              "height": "35",
+              "length": "192",
+              "weight": "41",
+              "package_pieces": "1"
+            }
+          }
+        ]
+      },
+      "type": "Sale"
+    }
+  }
+}
