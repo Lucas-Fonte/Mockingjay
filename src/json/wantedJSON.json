@@ -1,0 +1,7 @@
+{
+  "base": "teste",
+  "firstProp": {
+    "insideProp": "inside",
+    "insideArray": [0, 1, 2, 4]
+  }
+}

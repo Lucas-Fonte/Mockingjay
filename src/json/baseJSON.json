@@ -1,0 +1,13 @@
+{
+  "base": "basic",
+  "firstProp": {
+    "insideProp": 1,
+    "insideArray": [0, 1, 2]
+  },
+  "secondProp": "second",
+  "thirdProp": {
+    "insideProp": {
+      "deeperProp": true
+    }
+  }
+}
