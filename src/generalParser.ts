@@ -1,29 +1,25 @@
 import wantedJSON from './json/wantedJSON.json';
 import baseJSON from './json/baseJSON.json';
-import { getKeysInsideOfObject, getDifferenceBetweenTwoArrays } from './helpers';
+import {
+  getLayeredObject, separateValuesAndObjects, getDifferenceBetweenTwoArrays,
+} from './helpers';
 
 
-function getLayeredObject(object : Object) {
-  return getKeysInsideOfObject(object).map((objectKey : keyof object) => {
-    if (typeof object[objectKey] === 'object') {
-      if (getKeysInsideOfObject(object[objectKey]) === 'object') {
-        return getKeysInsideOfObject(object[objectKey].map((objectInsiderKey: keyof object[objectKey]) => getKeysInsideOfObject(object[objectKey][objectInsiderKey])));
-      }
-
-      return getKeysInsideOfObject(object[objectKey]);
-    }
-    return object[objectKey];
-  });
+function compareJSONs() {
+  return {
+    wantedJSON: separateValuesAndObjects(getLayeredObject(wantedJSON)),
+    baseJSON: separateValuesAndObjects(getLayeredObject(baseJSON)),
+  };
 }
 
-console.log(getLayeredObject(baseJSON));
+function applyDifferenceInValues() {
+  const result = compareJSONs();
 
-function getJSON() {
-  console.log({
-    wantedJSON: getKeysInsideOfObject(wantedJSON),
-    baseJSON: getKeysInsideOfObject(baseJSON),
-    difference: getDifferenceBetweenTwoArrays(getKeysInsideOfObject(wantedJSON), getKeysInsideOfObject(baseJSON)),
-  });
+  return {
+    result: result.baseJSON.values,
+    differenceInValues: getDifferenceBetweenTwoArrays(result.wantedJSON.values, result.baseJSON.values),
+    // differenceInObjects: getDifferenceBetweenTwoArrays(result.wantedJSON.objects, result.baseJSON.objects),
+  };
 }
-
-getJSON();
+console.log({ teste: getDifferenceBetweenTwoArrays([1, 2], [5, 4, 3]) });
+console.log(JSON.stringify(applyDifferenceInValues(), null, 4));
