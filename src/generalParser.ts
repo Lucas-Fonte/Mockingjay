@@ -1,7 +1,7 @@
 import wantedJSON from './json/wantedJSON.json';
 import baseJSON from './json/baseJSON.json';
 import {
-  getLayeredObject, separateValuesAndObjects, getDifferenceBetweenTwoArrays,
+  getLayeredObject, separateValuesAndObjects,
 } from './helpers';
 
 
@@ -12,14 +12,24 @@ function compareJSONs() {
   };
 }
 
+
+function findWantedKeyInBase(wantedValues : Array <any>, baseValues : Array <any>) {
+  const newJson = baseValues.map((baseValue) => {
+    const settedValue = wantedValues.find((wantedValue) => wantedValue.value.key === baseValue.value.key);
+    return settedValue || baseValue;
+  });
+
+  return {
+    wantedValues,
+    baseValues,
+    newJson,
+  };
+}
+
 function applyDifferenceInValues() {
   const result = compareJSONs();
 
-  return {
-    result: result.baseJSON.values,
-    differenceInValues: getDifferenceBetweenTwoArrays(result.wantedJSON.values, result.baseJSON.values),
-    // differenceInObjects: getDifferenceBetweenTwoArrays(result.wantedJSON.objects, result.baseJSON.objects),
-  };
+  return findWantedKeyInBase(result.wantedJSON.values, result.baseJSON.values);
 }
-console.log({ teste: getDifferenceBetweenTwoArrays([1, 2], [5, 4, 3]) });
+
 console.log(JSON.stringify(applyDifferenceInValues(), null, 4));

@@ -1,7 +1,5 @@
 
 function getDifferenceBetweenTwoArrays(firstArray : Array<any>, secondArray : Array<any>) {
-  console.log(JSON.stringify({ firstArray, secondArray }, null, 4));
-
   if (firstArray.length > secondArray.length) {
     return firstArray.filter((element : any) => !secondArray.find(element));
   }
@@ -41,7 +39,15 @@ function separateValuesAndObjects(array : Array<object>) {
   };
 }
 
+function findAndFilterKeys(array : Array <any>, seekedElement : string) {
+  return {
+    foundElement: array.find((element) => element === seekedElement),
+    filteredArray: array.slice(array.findIndex((element) => element === seekedElement), array.length),
+  };
+}
+
 export {
+  findAndFilterKeys,
   getDifferenceBetweenTwoArrays,
   getKeysInsideOfObject,
   getLayeredObject,
